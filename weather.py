@@ -25,7 +25,7 @@ def display_weather(data):
         print(f"Error: {data['message']}")
 
 def main():
-    api_key = '2e2a2627c18aab5927a04d916e3d2f4f'  # Replace with your OpenWeatherMap API key
+    api_key = 'Replace with your OpenWeatherMap API key'   
     city = input("Enter city name: ")
     
     weather_data = get_weather(api_key, city)
@@ -33,3 +33,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
